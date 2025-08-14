@@ -1,20 +1,14 @@
 <script setup lang="ts">
 import { reactive, computed } from "vue";
-import { defineNuxtLink } from "../../node_modules/nuxt/app";
 import hubspotData from "../../server/api/data.json";
 
-const questionNumber = 3; // selected question
+const questionNumber = 3;
 
 const filters = reactive<FilterState>({
-  companySize: ["Large (201-1000)"],
-  industry: ["Media & Marketing"],
-  quarter: ["2024-Q3"],
+  companySize: [],
+  industry: [],
+  quarter: [],
 });
-// const filters = {
-//   companySize: ["Large (201-1000)"],
-//   industry: ["Media & Marketing"],
-//   quarter: ["2024-Q3"],
-// };
 
 const chartConfig = computed(() => {
   if (!hubspotData) return null;
@@ -36,12 +30,23 @@ function onUpdateFilters(next: FilterState) {
       :unique-values="hubspotData.uniqueValues"
       @update:modelValue="onUpdateFilters"
     />
-    <NuxtLink to="about" />
+    <NuxtLink class="about-page" to="/about">About</NuxtLink>
   </main>
 </template>
 
 <style>
 :root {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-page {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
