@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { reactive, computed } from "vue";
-import hubspotData from "../../server/api/data.json";
+import hubspotData from "../../server/api/flower-feedback-data.en.json";
 
-const questionNumber = 3;
+const questionNumber = 1;
 
 const filters = reactive<FilterState>({
   companySize: [],

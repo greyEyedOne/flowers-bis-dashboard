@@ -17,7 +17,6 @@ watch(
     chart.data = cfg.data;
     chart.options = cfg.options;
     chart.update();
-    console.log("cfg", cfg);
   },
   { deep: true }
 );

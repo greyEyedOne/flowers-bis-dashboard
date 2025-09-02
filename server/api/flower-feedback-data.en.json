@@ -1,0 +1,929 @@
+{
+  "metadata": {
+    "title": "Flower Feedback Dashboard",
+    "description": "Aggregated reviews and feedback about a flower shop: products, extra services, and delivery quality."
+  },
+  "uniqueValues": {
+    "customerWeight": [
+      "retail",
+      "small wholesale",
+      "wholesale"
+    ],
+    "customerSegment": [
+      "private customers",
+      "event decorators",
+      "seasonal",
+      "funeral services"
+    ],
+    "quarter": [
+      "2024-Q1",
+      "2024-Q2",
+      "2024-Q3",
+      "2024-Q4"
+    ],
+    "companySize": [
+      "retail",
+      "small wholesale",
+      "wholesale"
+    ],
+    "industry": [
+      "private customers",
+      "event decorators",
+      "seasonal",
+      "funeral services"
+    ]
+  },
+  "questions": [
+    {
+      "questionId": "q1",
+      "questionNumber": 1,
+      "question": "How satisfied are you with the flower shop's service quality?",
+      "questionType": "multi_response",
+      "description": "Total mentions by plant types and arrangements found in reviews about service quality.",
+      "data": [
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Roses",
+          "numResponses": 89,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Tulips",
+          "numResponses": 22,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Lilies",
+          "numResponses": 11,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Peonies",
+          "numResponses": 43,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 39,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Roses",
+          "numResponses": 36,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Tulips",
+          "numResponses": 25,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Lilies",
+          "numResponses": 21,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Peonies",
+          "numResponses": 94,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 77,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Roses",
+          "numResponses": 19,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Tulips",
+          "numResponses": 83,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Lilies",
+          "numResponses": 62,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Peonies",
+          "numResponses": 12,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 11,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Roses",
+          "numResponses": 19,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Tulips",
+          "numResponses": 35,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Lilies",
+          "numResponses": 37,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Peonies",
+          "numResponses": 72,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 85,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Roses",
+          "numResponses": 11,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Tulips",
+          "numResponses": 79,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Lilies",
+          "numResponses": 33,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Peonies",
+          "numResponses": 91,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 77,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Roses",
+          "numResponses": 61,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Tulips",
+          "numResponses": 36,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Lilies",
+          "numResponses": 65,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Peonies",
+          "numResponses": 83,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Chrysanthemums",
+          "numResponses": 43,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Roses",
+          "numResponses": 8,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Tulips",
+          "numResponses": 28,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        }
+      ]
+    },
+    {
+      "questionId": "q2",
+      "questionNumber": 2,
+      "question": "How do you rate the additional services (bouquet selection, etc.)?",
+      "questionType": "multi_response",
+      "description": "Total mentions of arrangements/formats when evaluating additional services.",
+      "data": [
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Mono bouquet",
+          "numResponses": 62,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Seasonal mix",
+          "numResponses": 51,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Designer arrangement",
+          "numResponses": 43,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Flower box",
+          "numResponses": 27,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Basket arrangement",
+          "numResponses": 35,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Mono bouquet",
+          "numResponses": 51,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Seasonal mix",
+          "numResponses": 21,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Designer arrangement",
+          "numResponses": 19,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Flower box",
+          "numResponses": 56,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Basket arrangement",
+          "numResponses": 20,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Mono bouquet",
+          "numResponses": 53,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Seasonal mix",
+          "numResponses": 52,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Designer arrangement",
+          "numResponses": 85,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Flower box",
+          "numResponses": 41,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Basket arrangement",
+          "numResponses": 13,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Mono bouquet",
+          "numResponses": 66,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Seasonal mix",
+          "numResponses": 76,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Designer arrangement",
+          "numResponses": 23,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Flower box",
+          "numResponses": 56,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Basket arrangement",
+          "numResponses": 18,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Mono bouquet",
+          "numResponses": 78,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Seasonal mix",
+          "numResponses": 45,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Designer arrangement",
+          "numResponses": 88,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Flower box",
+          "numResponses": 87,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Basket arrangement",
+          "numResponses": 54,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Mono bouquet",
+          "numResponses": 81,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Seasonal mix",
+          "numResponses": 32,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Designer arrangement",
+          "numResponses": 16,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Flower box",
+          "numResponses": 13,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Basket arrangement",
+          "numResponses": 92,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Mono bouquet",
+          "numResponses": 37,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Seasonal mix",
+          "numResponses": 45,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        }
+      ]
+    },
+    {
+      "questionId": "q3",
+      "questionNumber": 3,
+      "question": "How do you rate delivery quality?",
+      "questionType": "multi_response",
+      "description": "Total mentions of plant types/arrangements in the context of delivery (appearance on arrival, etc.).",
+      "data": [
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Orchids",
+          "numResponses": 18,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q1",
+          "responseValue": "Gerberas",
+          "numResponses": 37,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Eucalyptus",
+          "numResponses": 20,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q1",
+          "responseValue": "Dried flowers",
+          "numResponses": 56,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 43,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q1",
+          "responseValue": "Orchids",
+          "numResponses": 66,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Gerberas",
+          "numResponses": 89,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q1",
+          "responseValue": "Eucalyptus",
+          "numResponses": 54,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Dried flowers",
+          "numResponses": 28,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q2",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 55,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Orchids",
+          "numResponses": 53,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q2",
+          "responseValue": "Gerberas",
+          "numResponses": 34,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Eucalyptus",
+          "numResponses": 93,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q2",
+          "responseValue": "Dried flowers",
+          "numResponses": 42,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 95,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q2",
+          "responseValue": "Orchids",
+          "numResponses": 90,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Gerberas",
+          "numResponses": 17,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q3",
+          "responseValue": "Eucalyptus",
+          "numResponses": 85,
+          "companySize": "wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Dried flowers",
+          "numResponses": 89,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q3",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 29,
+          "companySize": "wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Orchids",
+          "numResponses": 76,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q3",
+          "responseValue": "Gerberas",
+          "numResponses": 39,
+          "companySize": "wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Eucalyptus",
+          "numResponses": 28,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q3",
+          "responseValue": "Dried flowers",
+          "numResponses": 67,
+          "companySize": "wholesale",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 56,
+          "companySize": "retail",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "private customers",
+          "quarter": "2024-Q4",
+          "responseValue": "Orchids",
+          "numResponses": 42,
+          "companySize": "small wholesale",
+          "industry": "private customers"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Gerberas",
+          "numResponses": 89,
+          "companySize": "retail",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "event decorators",
+          "quarter": "2024-Q4",
+          "responseValue": "Eucalyptus",
+          "numResponses": 79,
+          "companySize": "small wholesale",
+          "industry": "event decorators"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Dried flowers",
+          "numResponses": 36,
+          "companySize": "retail",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "seasonal",
+          "quarter": "2024-Q4",
+          "responseValue": "Wildflower bouquet",
+          "numResponses": 95,
+          "companySize": "small wholesale",
+          "industry": "seasonal"
+        },
+        {
+          "customerWeight": "retail",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Orchids",
+          "numResponses": 49,
+          "companySize": "retail",
+          "industry": "funeral services"
+        },
+        {
+          "customerWeight": "small wholesale",
+          "customerSegment": "funeral services",
+          "quarter": "2024-Q4",
+          "responseValue": "Gerberas",
+          "numResponses": 15,
+          "companySize": "small wholesale",
+          "industry": "funeral services"
+        }
+      ]
+    }
+  ]
+}
