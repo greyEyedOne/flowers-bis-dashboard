@@ -63,26 +63,32 @@ function dataTransform(
       (!filters.quarter.length || filters.quarter.includes(entry.quarter))
   );
 
-  function returnFilterName(array: string[]) {
+  function returnFilterName(filterState: string[]) {
+    let array = JSON.parse(JSON.stringify(filterState));
     if (array.length === 0) return "All";
     if (array.length === 1) return array[0];
-    return array.join(", ");
+    return array.filter(Boolean).join(", ");
   }
 
   let chartSubtitle,
     companyPart,
     industryPart,
     quarterPart = "";
-  if (filters.companySize.length !== 0) {
-    companyPart = `Company Size: ${returnFilterName(filters.companySize)}`;
+  let parsedFilters = JSON.parse(JSON.stringify(filters)); // extract params
+  if (parsedFilters.companySize.length !== 0) {
+    companyPart = `Company Size: ${returnFilterName(
+      parsedFilters.companySize
+    )}`;
   }
-  if (filters.industry.length !== 0) {
-    industryPart = `Industry: ${returnFilterName(filters.industry)}`;
+  if (parsedFilters.industry.length !== 0) {
+    industryPart = `Industry: ${returnFilterName(parsedFilters.industry)}`;
   }
-  if (filters.quarter.length !== 0) {
-    quarterPart = `Quarter: ${returnFilterName(filters.quarter)}`;
+  if (parsedFilters.quarter.length !== 0) {
+    quarterPart = `Quarter: ${returnFilterName(parsedFilters.quarter)}`;
   }
-  chartSubtitle = [companyPart, industryPart, quarterPart].join(", ");
+  chartSubtitle = [companyPart, industryPart, quarterPart]
+    .filter(Boolean)
+    .join(", ");
 
   const df = new pd.DataFrame(
     filteredQuestionData.map((r) => ({
